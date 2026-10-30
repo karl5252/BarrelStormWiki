@@ -51,5 +51,14 @@ nav:
       - Ministries: ministries.md
       - Chronology: chronology.md
       - Muhosransk Incident: muhosransk-incident.md
+      - Recovered Transmissions: recovered-transmissions.md
+  - Citizen Services:
+      - The Little Red Handbook: citizens-handbook.md
+      - Civil Defense Manual: civil-defense-manual.md
+      - Everyday Life: everyday-life.md
+      - Tanker Field Manual: tanker-field-manual.md
+  - Ministry Circulars:
+      - Reprocessing Directives: reprocessing-directives.md
+      - Official Bulletins: ministries-bulletins.md
   - Ministry of Culture:
       - Propaganda Gallery: gallery.md
