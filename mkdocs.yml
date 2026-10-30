@@ -1,0 +1,50 @@
+site_name: Motherplant Archives | BarrelStorm
+site_description: Officially approved documentation of BarrelStorm
+site_url: https://karl5252.github.io/BarrelStormWiki/
+repo_url: https://github.com/karl5252/BarrelStormWiki
+repo_name: karl5252/BarrelStormWiki
+copyright: "Ministry of Public Clarity · For the Motherplant"
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    scheme: slate
+    primary: custom
+    accent: custom
+  font:
+    text: Roboto
+    code: Roboto Mono
+extra_css:
+  - assets/css/motherplant.css
+extra_javascript:
+  - assets/js/bulletin.js
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+nav:
+  - Terminal: index.md
+  - Game Design:
+      - Vision: vision.md
+      - Core Gameplay: gameplay.md
+      - Enemy Forces: enemies.md
+      - Art Direction: art-direction.md
+  - Motherplant Archives:
+      - World & Tone: world-and-tone.md
+      - The Doctrine: motherplant-doctrine.md
+  - Ministry of Culture:
+      - Propaganda Gallery: gallery.md
