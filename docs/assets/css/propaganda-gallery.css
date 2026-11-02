@@ -1,0 +1,33 @@
+/* Public archive poster catalogue: responsive, readable and deliberately simple. */
+.bs-poster-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  gap: 1.15rem;
+  align-items: start;
+  margin: 1.4rem 0 2rem;
+}
+.bs-poster-card {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .45rem;
+  background: var(--md-code-bg-color);
+}
+.bs-poster-card a { display:block; }
+.bs-poster-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.bs-poster-card figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+  padding: .7rem .8rem .8rem;
+  font-size: .82rem;
+  line-height: 1.4;
+}
+.bs-poster-card figcaption span {
+  color: var(--md-default-fg-color--light);
+  font-size: .74rem;
+}

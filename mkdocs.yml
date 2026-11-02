@@ -24,6 +24,7 @@ theme:
     code: Roboto Mono
 extra_css:
   - assets/css/motherplant.css
+  - assets/css/propaganda-gallery.css
 extra_javascript:
   - assets/js/bulletin.js
 plugins:
